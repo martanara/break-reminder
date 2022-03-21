@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import AppDescription from './AppDescription';
 
 class App extends React.Component {
 
@@ -71,6 +72,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Protect your eyes</h1>
+        <AppDescription />
         {
           (status === 'off') && 
           <div>
